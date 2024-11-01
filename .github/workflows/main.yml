@@ -37,4 +37,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: anitaku-anime-downloader-${{ matrix.os }}
-          path: dist/AnitakuAnimeDownloader
+          path: dist
